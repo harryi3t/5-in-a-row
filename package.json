@@ -1,0 +1,28 @@
+{
+  "name": "5-in-a-row",
+  "version": "0.0.1",
+  "description": "It a two player game which is won by the first player who makes 5 consecutive symbols in any of valid directions (horizontal,vertical or diagonal). This game is developed using sockets.io, angularJS, nodeJS & mongoDB",
+  "main": "server.js",
+  "dependencies": {
+    "socket.io": "^1.4.8",
+    "two.js": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harryi3t/5-in-a-row.git"
+  },
+  "keywords": [
+    "grid-game",
+    "5-in-a-row"
+  ],
+  "author": "harryi3t",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harryi3t/5-in-a-row/issues"
+  },
+  "homepage": "https://github.com/harryi3t/5-in-a-row"
+}

@@ -1,0 +1,71 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/harry/.nvm/v0.10.37/bin/node',
+1 verbose cli   '/home/harry/.nvm/v0.10.37/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'yoman' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose cache add [ 'yoman', null ]
+5 verbose cache add name=undefined spec="yoman" args=["yoman",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'yoman',
+6 verbose parsed url   path: 'yoman',
+6 verbose parsed url   href: 'yoman' }
+7 silly lockFile 6a922cf9-yoman yoman
+8 verbose lock yoman /home/harry/.npm/6a922cf9-yoman.lock
+9 silly lockFile 6a922cf9-yoman yoman
+10 silly lockFile 6a922cf9-yoman yoman
+11 verbose addNamed [ 'yoman', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile f9fb49c1-yoman yoman@
+14 verbose lock yoman@ /home/harry/.npm/f9fb49c1-yoman.lock
+15 silly addNameRange { name: 'yoman', range: '*', hasData: false }
+16 verbose request where is /yoman
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id f07df5ade3e21f95
+19 verbose url raw /yoman
+20 verbose url resolving [ 'https://registry.npmjs.org/', './yoman' ]
+21 verbose url resolved https://registry.npmjs.org/yoman
+22 verbose request where is https://registry.npmjs.org/yoman
+23 info trying registry request attempt 1 at 22:11:15
+24 http GET https://registry.npmjs.org/yoman
+25 http 404 https://registry.npmjs.org/yoman
+26 silly registry.get cb [ 404,
+26 silly registry.get   { 'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=0',
+26 silly registry.get     'content-length': '2',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Sat, 13 Aug 2016 16:41:17 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-sin6922-SIN',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1471106476.932657,VS0,VE971',
+26 silly registry.get     vary: 'Accept-Encoding' } ]
+27 silly lockFile f9fb49c1-yoman yoman@
+28 silly lockFile f9fb49c1-yoman yoman@
+29 error 404 Not Found
+29 error 404
+29 error 404 'yoman' is not in the npm registry.
+29 error 404 You should bug the author to publish it
+29 error 404
+29 error 404 Note that you can also install from a
+29 error 404 tarball, folder, or http url, or git url.
+30 error System Linux 4.4.0-31-generic
+31 error command "/home/harry/.nvm/v0.10.37/bin/node" "/home/harry/.nvm/v0.10.37/bin/npm" "install" "-g" "yoman"
+32 error cwd /home/harry/work/github_projects/5-in-a-row
+33 error node -v v0.10.37
+34 error npm -v 1.4.28
+35 error code E404
+36 verbose exit [ 1, true ]
